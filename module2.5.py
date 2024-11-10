@@ -10,10 +10,11 @@ def get_matrix(n, m, value):
     for i in range(n):
         for _ in range(m):
             if value <= 0:
-             return[]
+                return []
             matrix[i].append(value)
 
     return matrix
+
 
 # Пример использования функции
 result1 = get_matrix(2, 2, 0)

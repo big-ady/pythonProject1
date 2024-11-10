@@ -14,7 +14,8 @@ for num in numbers:
     else:
         not_primes.append(num)
         if num == 1:
-         not_primes.remove(num)
+            not_primes.remove(num)
+
 print("Список простых чисел:")
 print(primes)
 print("\nСписок непростых чисел:")
